@@ -1,3 +1,16 @@
 export { default as image1 } from './image1.svg';
 export { default as toggle1 } from './toggle.svg';
 export { default as image2 } from './image2.png';
+export { default as image3 } from './image3.png';
+export { default as hero1 } from './hero1.png';
+export { default as advantage1 } from './advantage1.svg';
+export { default as advantage2 } from './advantage2.svg';
+export { default as advantage3 } from './advantage3.svg';
+export { default as happily1 } from './happily1.svg';
+export { default as works1 } from './works1.svg';
+export { default as testimony1 } from './testimony1.png';
+export { default as ready } from './ready.png';
+export { default as facebook } from './facebook.png';
+export { default as linkdin } from './linkdin.png';
+export { default as insta } from './insta.png';
+export { default as twitter } from './twitter.png';

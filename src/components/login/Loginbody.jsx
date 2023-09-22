@@ -1,9 +1,9 @@
 import React from 'react';
 import { image1 } from '../../images/index.js';
-import Greg from '../../Greg.jsx';
+
 import { toggle1 } from '../../images/index.js';
 import { image2 } from '../../images/index.js';
-
+import { Link } from 'react-router-dom';
 const Loginbody = () => {
   return (
     <div>
@@ -39,13 +39,17 @@ const Loginbody = () => {
                 </a>
               </div>
               <div>
-                <Greg />
+                <span>
+                  <button className='bg-[#69b99d] w-[340px] h-10 rounded-md'>
+                    Login
+                  </button>
+                </span>
               </div>
               <div className='flex flex-row space-x-8'>
                 <span>Don’t have an account?</span>
-                <a href='#' className='text-[#69b99d]'>
-                  sign Up!
-                </a>
+                <Link className='text-[#69b99d]' to={'/signup'}>
+                  Signup
+                </Link>
               </div>
             </div>
           </div>

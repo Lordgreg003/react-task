@@ -1,6 +1,6 @@
 import { Loginbody } from '../components/login/index';
-import { Foot } from '../components/layout/footer';
-import { Nav } from '../components/layout/nav';
+import { Foot } from '../components/layout';
+import { Nav } from '../components/layout';
 const LoginScreen = () => {
   return (
     <div>
